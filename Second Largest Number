@@ -1,0 +1,6 @@
+arr = [1,2,3,4,5,4]                             #array(arr) in which we have to search for the second largest number
+x = sorted(list(arr), reverse = True)           #Sorting the array(arr) in descending order
+for i in x:                                     #Iterating through the array using for loop
+    if i < max(x):                              
+        print(i)                                #Printing the first value less than the max value i.e. the second largest value
+        break                                   #breaking the loop
